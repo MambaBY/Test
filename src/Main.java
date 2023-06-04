@@ -20,8 +20,8 @@ public class Main {
                              new Dog("Jery", "meat", "flat"),
                              new Horse("Ben", "grass", "farm")};
 
-        for (Animal j : animals) {
-            Vet.treatAnimal(j);
+        for (Animal animal : animals) {
+            Vet.treatAnimal(animal);
         }
 
 
